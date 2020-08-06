@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+    <!-- подключи стили лежат в папке css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section class="size">
+        <h3>Изучим размеры</h3>
+        <div class="txt-em">Я тектс с применением относительного размера em</div>
+        <div class="txt-em">Задай и мне тот же размер</div>
+        <!-- напиши свои мысли сюда, как он работает -->
+        <div class="txt-rem">Я с применением размера rem</div>
+        <!-- напиши свои мысли сюда, как он работает -->
+        <div class="txt-percent">Я с применением размера в %</div>
+        <div class="txt-vw">Я с применением размера vw</div>
+        <!-- напиши свои мысли сюда, как он работает -->
+        <div class="txt-vh">Я с применением размера в vh</div>
+        <!-- напиши свои мысли сюда, как он работает -->
+        <div class="txt-vmin">Я с применением размера в vh</div>
+        <!-- напиши свои мысли сюда, как он работает -->
+        <div class="txt-vmax">Я с применением размера в vh</div>
+        <!-- напиши свои мысли сюда, как он работает -->
+    </section>
+    <section class="display">
+        <h3>Изучим display</h3>
+        <div class="block-el">Я хочу быть блочным</div>
+        <div class="inline-block-el">Я хочу быть строчно-блочным</div>
+        <div class="inline-el">А я должен стать строчным</div>
+         <!-- напиши сюда твои мысли о том, как ведут себя эти элементы -->
+        <div class="none-el">А я хочу спрятаться</div>
+        <div class="list-el">Я должен быть элементом списка</div>
+       
+        <!-- здесь нужно с помощью display: table создать таблицу из div-элементов -->
+
+        <div class="flex-area">
+            <!-- здесь нужно использовать flex чтобы расположить элементы -->
+            <div class="flex-el"><img src="../img/connector.png" alt=""></div>
+            <div class="flex-el"><img src="../img/electronics.png" alt=""></div>
+            <div class="flex-el"><img src="../img/electronics1.png" alt=""></div>
+        </div>
+      
+        <div class="grid-system">
+            <!-- расположить элементы с помощью display grid, 
+                боковое меню должно быть справа от main, между элементами промежутки в 40px -->
+            <header></header>
+            <main></main>
+            <aside></aside>
+            <footer></footer>
+        </div> 
+        
+    </section>
+    <section class="float">
+        <h3>Изучим float</h3>
+        <!-- нужно расположить картинку слева от текста -->
+        <a href="https://learn.javascript.ru/float">Хорошая статья</a>
+        <p>
+            <!-- добавить две рамки с помощью outline для текста -->
+            Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit. 
+            Perspiciatis aut, cupiditate ad
+            incidunt exercitationem animi qui
+            dolorem suscipit hic dicta minus facere, 
+            ratione dignissimos? Quod quos culpa 
+            exercitationem quas asperiores.
+        </p>
+        <img src="../img/electronics1.png" alt="">
+        <!-- желательно реализовать 3х колончатую с разным контентом, чтобы осознать косяки float-->
+        <!-- и также почитать про очистку -->
+    </section>
+    <p>
+        <!-- в этом тексте необходимоо сохранить отступы без br -->
+        Lorem ipsum dolor sit amet, 
+        consectetur adipisicing elit. 
+        Perspiciatis aut, cupiditate ad
+        incidunt exercitationem animi qui
+        dolorem suscipit hic dicta minus facere, 
+        ratione dignissimos? Quod quos culpa 
+        exercitationem quas asperiores.
+    </p>
+</body>
+</html>

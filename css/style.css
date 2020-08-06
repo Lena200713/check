@@ -1,0 +1,26 @@
+
+.block-el{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 127, 127);
+}
+.inline-block-el{
+    width: 300px;
+    height: 100px;
+    background: rgb(164, 255, 164);
+}
+.inline-el{
+    background: rgb(160, 160, 243);
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+header, main, aside, footer{
+    background: darkgrey;
+    border-radius: 20px;
+    border: 2px solid white;
+    height: 200px;
+}
