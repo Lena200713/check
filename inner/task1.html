@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task 1</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap
+    /4.5.0/css/bootstrap.min.css"
+     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb
+     1dKGj7Sk" crossorigin="anonymous">
+     <title>Создание сайтов</title>
+     <link rel="shortcut icon" href="../img/sport.png" type="image/x-icon">
+     <meta charset="utf-8">
+  <title>Тег IFRAME</title>
 </head>
 <body>
+  <iframe src="banner.html" width="468" height="60" align="left">
+  Ваш браузер не поддерживает плавающие фреймы!
+</iframe>
     <div class="container">
-    <h3>Добавить теги(оформить с помощью семантических тегов, придумать где шапка сайта, раздел):</h3> 
+    <header>
+    <h3>Добавить теги(оформить с помощью семантических тегов, придумать где шапка сайта, раздел):</h3>
+    </header>
+    <section class="questions" id="section-questions">  <!-- это можно делать  -->
     <li>тег div и написать внутри для чего он нужен, задать класс и id объяснить для чего они</li>
     <li>создать картинку ссылку</li>
-    <li>создать форму с полями выбора цвета и набора текста, 
+    <li>создать форму с полями выбора цвета и набора текста,
         добавить чекбокс и выпадающий список</li>
     <li>нарисовать несколько фигур с помощью тега svg</li>
     <li>добавить иконку на вкладку, поменять название вкладки</li>
@@ -21,6 +34,57 @@
     <li>добавить iframe окна</li>
     <li>что такое якоря</li>
     <li>абсолютные и относительные пути к файлу</li>
-    </div>
+
+    </section>
+    <section class="answers">
+   <div class="title"></div>
+   <!-- "преднозначен для выделения фрагмента документа целью изменения
+    видда содержимого"> -->
+    <div id="name"></div>
+    <!-- id это уникальный индефекатор  -->
+      <a href="https://webref.ru"><img src="../img/создание сайтов.jpg" alt=""></a>
+      <svg width="230" height="140">
+        <rect x="5" y="5" width="220" height="130"
+         fill="skyblue" stroke="steelblue" stroke-width="5"
+        />
+      </svg>
+      <div class="flex">
+       <div class="a"></div>
+       <div class="b"></div>
+      </div>
+      <div class="grid">
+       <div class="c"></div>
+       <div class="d"></div>
+      </div>
+      <ul>
+        <li>Black</li>
+        <li>Pink</li>
+        <li>Bts</li>
+      </ul>
+      <ol>
+        <li>Пройдите прямо</li>
+        <li>Сверните на право</li>
+      </ol>
+
+     <a href="#section-questions">к вопросам</a>
+
+    <form>
+    <fieldset>
+      <legend>Контактная иформация</legend>
+      <label>Имя <input type="text"required></label>
+      <label>E-mail<input type="email" required></label>
+      <input type="checkbox">
+      <input type="color"  value="#FF5733">
+      <select class="steelblue" name="fggfd">
+        <option>steelblue</option>
+        <option>blue</option>
+        <option>skyblue</option>
+      </select>
+    </fieldset>
+    </form>
+    <!-- относительные и абсолютные пути  -->
+
+   </section>
+  </div>
 </body>
 </html>
