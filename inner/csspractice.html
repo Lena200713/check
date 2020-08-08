@@ -13,25 +13,27 @@
         <h3>Изучим размеры</h3>
         <div class="txt-em">Я тектс с применением относительного размера em</div>
         <div class="txt-em">Задай и мне тот же размер</div>
-        <!-- напиши свои мысли сюда, как он работает . i don't now-->
+        <!-- относительные, они определяются по текущему контексту. -->
         <div class="txt-rem">Я с применением размера rem</div>
-        <!-- напиши свои мысли сюда, как он работает 10 -->
+        <!--  задаёт размер относительно шрифта <html>, используется для удобства глобального масштабирования:
+        элементы которые планируется масштабировать, задаются в rem -->
         <div class="txt-percent">Я с применением размера в %</div>
+        <!-- относительно такого же свойства родителя (а может и не родителя, а может и не такого же -->
         <div class="txt-vw">Я с применением размера vw</div>
-        <!-- напиши свои мысли сюда, как он работает -->
+        <!-- относительно размера экрана  -->
         <div class="txt-vh">Я с применением размера в vh</div>
-        <!-- напиши свои мысли сюда, как он работает -->
+        <!--  относительно размера экрана-->
         <div class="txt-vmin">Я с применением размера в vh</div>
-        <!-- напиши свои мысли сюда, как он работает -->
+        <!--  относительно размера экрана -->
         <div class="txt-vmax">Я с применением размера в vh</div>
-        <!-- напиши свои мысли сюда, как он работает -->
+        <!-- относительно размера экрана -->
     </section>
     <section class="display">
         <h3>Изучим display</h3>
         <div class="block-el">Я хочу быть блочным</div>
         <div class="inline-block-el">Я хочу быть строчно-блочным</div>
         <div class="inline-el">А я должен стать строчным</div>
-         <!-- напиши сюда твои мысли о том, как ведут себя эти элементы -->
+         <!--они видо изменяютс и заливаются в строку ,блока строчно блочный впустил строчный элемент  -->
         <div class="none-el">А я хочу спрятаться</div>
         <div class="list-el">Я должен быть элементом списка</div>
 
@@ -52,7 +54,6 @@
             <aside></aside>
             <footer></footer>
         </div>
-
     </section>
     <section class="float">
         <h3>Изучим float</h3>
@@ -74,13 +75,14 @@
     </section>
     <p>
         <!-- в этом тексте необходимоо сохранить отступы без br -->
-        <div>Lorem ipsum dolor sit amet,</div>
-        <div>consectetur adipisicing elit.</div>
-        <div>Perspiciatis aut, cupiditate ad</div>
-        <div>incidunt exercitationem animi qui</div>
-        <div>dolorem suscipit hic dicta minus facere,</div>
-        <div>ratione dignissimos? Quod quos culpa</div>
-        <div>exercitationem quas asperiores.</div>
+        <div class="lorem">
+        Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit.
+        Perspiciatis aut, cupiditate ad
+        incidunt exercitationem animi qui
+        dolorem suscipit hic dicta minus facere,
+        ratione dignissimos? Quod quos culpa
+        exercitationem quas asperiores.</div>
     </p>
 </body>
 </html>

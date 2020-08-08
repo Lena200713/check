@@ -82,15 +82,10 @@ header, main, aside, footer{
 
 .grid-system{
   display: grid;
- grid-template-columns: repeat(8, 1fr);
- grid-gap: 10px;
- grid-auto-rows: 100px;
- grid-template-areas:
-   "a a a a b b b b"
-   "a a a a b b b b"
-   "c c c c d d d d"
-   "c c c c d d d d";
- align-items: start;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 80px auto 80px;
+  column-gap: 40px;
+  row-gap: 40px;
 }
 
 .float>img{
@@ -99,11 +94,13 @@ header, main, aside, footer{
 }
 
 .float{
-  padding: solid 8px #a84832;
-  border-style: double;
-  outline: solid 6px #888;
-  margin: solid 10px #a83232;
+  outline: solid;
+  outline: dashed red;
+  outline: 1rem solid;
+  outline: thick double #32a1ce;
+  outline: 8px ridge rgba(170, 50, 220, .6);
+  border-radius: 2rem;
 }
-.p{
-  margin-bottom: 20px;
+.lorem{
+  white-space:pre-line;
 }
